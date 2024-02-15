@@ -254,17 +254,6 @@ img {
                         "text text text"; */
 }
 
-/* .images_places {
-  grid-area: image4;
-  width: 100%;
-  height: 60%;
-  object-fit: cover;
-}
-
-img {
-  max-width: 100%;
-  height: 20;
-}      */
 
 .project-items-text {
   display: grid;
@@ -320,19 +309,6 @@ img {
   object-fit: cover;
 }
 
-/* .butt {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
-
-
-/* Reset default margin and padding */
-* {
-  margin: 0;
-  padding: 0;
-}
-
 /* Style the footer */
 footer {
   background-color: black;
@@ -365,14 +341,15 @@ footer {
 .footer-content ul li a:hover {
   text-decoration: underline;
 }
-/* 
+
 {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  box-sizing: 0 0 1 border-box;
   font-family: "Poppins" , sans-serif;
 }
-body{
+
+.body{
   min-height: 100vh;
   width: 100%;
   background: #c8e8e9;
@@ -382,7 +359,7 @@ body{
 }
 .container{
   width: 85%;
-  background: #fff;
+  background: #193B51;
   border-radius: 6px;
   padding: 20px 60px 30px 40px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
@@ -437,7 +414,7 @@ body{
 .content .right-side .topic-text{
   font-size: 23px;
   font-weight: 600;
-  color: #3e2093;
+  color: white;
 }
 .right-side .input-box{
   height: 50px;
@@ -508,7 +485,8 @@ body{
  .container .content .left-side::before{
    display: none;
  }
- .container .content .right-side{
+ .container .content .right-side {
    width: 100%;
    margin-left: 0;
- } */
+  }
+}
