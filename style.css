@@ -69,7 +69,7 @@ font-size: 20px;
   font-size: 20px;
   background: #ffffff;
   padding: 10px 20px 10px 20px;
-  border: solid #193B51 9px;
+  border: solid #193B51 4px;
   text-decoration: none;
 }
 
@@ -95,7 +95,7 @@ font-size: 20px;
   font-size: 20px;
   background: #ffffff;
   padding: 10px 20px 10px 20px;
-  border: solid #193B51 9px;
+  border: solid #193B51 5px;
   text-decoration: none;
 }
 
@@ -144,12 +144,13 @@ font-size: 20px;
 }
 
 .new-item-text{
-  padding:50px;
+  padding:30px;
   color: black;
+  margin: 10px 10px;
 }
 
 .text{
-  text-align: left;
+  text-align: center;
   padding: 10px 0;
 }
 
@@ -164,24 +165,32 @@ color:#193B51 ;
   grid-template-rows: 1fr;
   grid-column-gap: 50px;
   grid-row-gap: 0px;
+  margin: 10px 10px;
+  height: 50%;
 }
 
 .SERVICES{
-  padding: 50px, 20px;
+  /* padding: 50px 50px; */
   align-items: center;
   margin: auto;
   text-align: center; 
   background-color:#94ABB2 ;
+  margin: 20px 20px;
+  height: 45vh;
 }
 
 .sevices h2{
   padding-bottom: 35px;
+
+
 }
 
 .service-card {
   background: linear-gradient(to bottom, white,#193B51);
   border: solid white;
   border-radius: 10px;
+  /* height: 30vh; */
+  padding: 20px 20px;
 }
 
 .about-text{
@@ -200,9 +209,10 @@ color:#193B51 ;
 .grid-container {
   border: 2px solid#193B51;
   border-radius: 10px;
+  margin: 20px 20px;
 }
 
-.new-items-text {
+.new-items-texts {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr;
@@ -247,10 +257,11 @@ img {
 }
 
 .projects-items {
+  margin: 15px 15px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr;
-  grid-column-gap: 50px;
+  grid-column-gap: 35px;
   grid-row-gap: 0px;
   /* grid-template-areas: "project_images_grid_1 project_images_grid_2 project_images_grid_3"
                         "text text text"; */
@@ -261,7 +272,7 @@ img {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr;
-  grid-column-gap: 50px;
+  grid-column-gap: 35px;
   grid-row-gap: 0px;
   grid-template-areas: "project_images_grid_1 project_images_grid_2 project_images_grid_3"
                         "text text text"
@@ -269,6 +280,15 @@ img {
                         "text text text" ;
 }
 
+.grid-container1 {
+  border: 2px solid#193B51;
+  border-radius: 10px;
+  margin: 20px 20px;
+}
+
+.grid-container1 img{
+  height: 70% ;
+}
 .project_images_grid_1{
   grid-area: project_images_grid_3;
   width: 100%;
@@ -281,6 +301,7 @@ img {
   width: 100%;
   height: 60%;
   object-fit: cover;
+  
 }
 
 .project_images_grid_3{
@@ -315,7 +336,12 @@ img {
 footer {
   background-color: black;
   color: #fff;
-  padding: 20px 0;
+  padding: 20px;
+  background-position: center;
+    height: 15vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
 }
 
 /* Center the content horizontally */
@@ -359,9 +385,10 @@ footer {
   justify-content: center;
 }
 .container{
+  margin: 20px 20px;
   width: 100%;
   background: #193B51;
-  border-radius: 6px;
+  border-radius: 10px;
   padding: 20px 60px 30px 40px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
@@ -431,7 +458,7 @@ footer {
   font-size: 16px;
   background: #F0F1F8;
   border-radius: 6px;
-  padding: 0 15px;
+  padding: 10px 10px;
   resize: none;
 }
 .right-side .message-box{
